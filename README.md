@@ -1,7 +1,6 @@
-# Bootstrap_2
-Bootstrap 2 Badge
+# Bootstrap_2 Badge
 
-Master the following:
+<strong>Master the following:</strong>
 <ul>
   <li>Create responsive navbars using nav tag (fixed at top)</li>
   <li>Build navs from scratch with tabs and pills</li>
@@ -12,6 +11,6 @@ Master the following:
 <li>Include bootstrap-icons (or Font Awesome icons) as accents in the website</li>
 <li>Build responsive forms with all HTML input types</li>
 <li>Can utilize the following components:</li>
-<li>Carousel</li>
-<li>Tooltips</li>
+  <li>Carousel</li>
+  <li>Tooltips</li>
 </ul>
