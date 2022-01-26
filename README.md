@@ -2,7 +2,8 @@
 Bootstrap 2 Badge
 
 Master the following:
-Create responsive navbars using nav tag (fixed at top)
+<ol>
+  <li>Create responsive navbars using nav tag (fixed at top)</li>
 Build navs from scratch with tabs and pills
 Display content in a modal
 Use cards to display groups of content
