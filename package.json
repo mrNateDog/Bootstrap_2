@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "@hypertheme-editor/chakra-ui": "^0.1.3"
   }
 }
