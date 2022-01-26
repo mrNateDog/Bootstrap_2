@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./sass/index.scss"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      .carousel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div
+      id="demo"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="2000"
+    >
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/animal-6934928_1280.jpg"
+            alt="Cat"
+            width="1280"
+            height="853"
+          />
+          <div class="carousel-caption">
+            <h3>Cat</h3>
+            <p>What a cute cat!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/bird-6955201_1280.jpg"
+            alt="Parrot"
+            width="1280"
+            height="853"
+          />
+          <div class="carousel-caption">
+            <h3>Parrot</h3>
+            <p>Polly want a cracker?</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/squirrel-6949263_1280.jpg"
+            alt="squirrel"
+            width="1280"
+            height="853"
+          />
+          <div class="carousel-caption">
+            <h3>Squirrel</h3>
+            <p>What a cute little guy!</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </body>
+</html>

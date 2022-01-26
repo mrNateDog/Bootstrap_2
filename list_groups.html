@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./sass/index.scss"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    <style>
+      .marg_left {
+        line-height: 16px;
+        margin-left: 12px;
+      }
+    </style>
+    <title>List Groups w. tooltips & Icons!</title>
+  </head>
+  <body>
+    <!-- Basic List Group -->
+    <div class="container">
+      <h2>Shopping List</h2>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <i class="material-icons">cake</i>
+          <span class="marg_left">Cake </span>
+        </li>
+        <li class="list-group-item">
+          <i class="material-icons">icecream</i>
+          <span class="marg_left">Ice Cream </span>
+        </li>
+        <li class="list-group-item">
+          <i class="material-icons">local_pizza</i>
+          <span class="marg_left">Pizza </span>
+        </li>
+      </ul>
+    </div>
+    <br />
+    <!-- Flush List Group - My Fav -->
+    <div class="container">
+      <h2>Sports Teams</h2>
+      <ul class="list-group list-group-flush">
+        <li
+          class="list-group-item"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Hockey!"
+        >
+          Predators
+        </li>
+        <li
+          class="list-group-item"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Football!"
+        >
+          Titans
+        </li>
+        <li
+          class="list-group-item"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="College Football!"
+        >
+          Tigers
+        </li>
+        <li
+          class="list-group-item"
+          data-toggle="tooltip"
+          data-placement="left"
+          title="Baseball!"
+        >
+          Braves
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
